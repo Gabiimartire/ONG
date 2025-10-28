@@ -9,7 +9,7 @@
   object-fit: cover;        
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .carousel-item img {
     height: 300px;
@@ -28,7 +28,7 @@
 }
 .carousel-caption {
   position: absolute;
-  bottom: 15%;
+  bottom: 5%;
   z-index: 2; 
 }
 
