@@ -17,8 +17,8 @@
   }
   .carousel-caption {
   position: absolute;
-  left:40%;
-  right: 5%;
+  left:5%;
+  right: 40%;
   z-index: 2;
   text-shadow: 1px 1px 4px rgba(0,0,0,0.7)
 }
