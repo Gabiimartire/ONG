@@ -15,3 +15,20 @@
     height: 300px;
   }
 }
+.carousel-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70%; 
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.2), transparent);
+  pointer-events: none; 
+  z-index: 1;
+}
+.carousel-caption {
+  position: absolute;
+  bottom: 15%;
+  z-index: 2; 
+}
+
