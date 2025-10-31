@@ -6,6 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Huellitas Felices</title>
 </head>
 <body>
@@ -111,45 +112,55 @@
             </div>
 
          <!-- Fin del carrusel -->
-        <div>
+        <div class="container my-3 w-100 d-flex flex-column align-items-center">
             <!-- presentacion y esas cosas -->
+            <h4 class="border-bottom text-center pb-2 w-100 fs-6 fw-thin text-muted">QUE HACEMOS</h4>
+            <p class="text-center w-75 fw-bold fs-5">En Huellitas Felices, nos dedicamos a rescatar, cuidar y encontrar hogares amorosos para mascotas necesitadas. Nuestra misión es brindar una segunda oportunidad a perros y gatos abandonados, promoviendo la adopción responsable y el bienestar animal. A través de campañas de concientización, eventos de adopción y programas de voluntariado, trabajamos incansablemente para crear un mundo donde cada mascota tenga un hogar feliz y seguro.</p>
+        </div>
+        <div>
+            <!-- tarjetas de las mascotas en adopcion -->
         </div>
     </main>
     <footer>
-        <div class="footer">
-            <div class="row py-4 justify-content-center">
-                <div class="col-md-3">
-                    <h5 class="fw-bold fs-6">Huellitas Felices</h5>
-                    <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum est laborum voluptatum alias quod eveniet, explicabo mollitia odio saepe! Maxime consectetur accusamus magnam error dignissimos enim labore cupiditate molestias quia!</p>
+        <div class="footer container">
+            <div class="row py-4 justify-content-center w-100">
+                <div class="col-md-4">
+                    <h5 class="fw-bold">Huellitas Felices</h5>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum est laborum voluptatum alias quod eveniet, explicabo mollitia odio saepe! Maxime consectetur accusamus magnam error dignissimos enim labore cupiditate molestias quia!</p>
                 </div>
-               <div class="col-md-3">
-                    <h5 class="fw-bold fs-6">DEPÓSITO / TRANSFERENCIA</h5>
-                    <p>Cuenta Corriente BBVA en pesos/dólares:</p>
-                    <p>Número de cuenta: 191-007531/9</p>
-                    <p>CBU: 0170191920000000753199</p>
-                    <p>Alias: GABRIEL.MARTIRE</p>
+               <div class="col-md-4">
+                    <h5 class="fw-bold">Depósito / Transferencia</h5>
+                    <p class="fs-6">Cuenta Corriente BBVA en pesos/dólares:</p>
+                    <p class="fs-6">Número de cuenta: 191-007531/9</p>
+                    <p class="fs-6">CBU: 0170191920000000753199</p>
+                    <p class="fs-6">Alias: GABRIEL.MARTIRE</p>
                 </div>
-                     <div class="col-md-3">
-                    <h5 class="fw-bold fs-6">Información</h5>
-                    <a href="#">lorem</a>
-                    <a href="#">lorem</a>
-                    <a href="#">lorem</a>
-                    <a href="#">lorem</a>
-                    <a href="#">Contacto</a>
+                     <div class="col-md-4 d-flex flex-column">
+                    <h5 class="fw-bold ">Información</h5>
+                    <a class="fs-6" href="#">lorem</a>
+                    <a class="fs-6" href="#">lorem</a>
+                    <a class="fs-6" href="#">lorem</a>
+                    <a class="fs-6" href="#">lorem</a>
+                    <a class="fs-6" href="#">Contacto</a>
+                </div>
+                <div class="col-md-4 d-flex flex-column">
+                    <h5 class="fw-bold ">Cambia una vida</h5>
+                    <img src="./img/qr.png" alt="lorem" class="img-fluid" style="width:180px;">
                 </div>
             </div>
-            <div class="text-center">
-                <a href="https://www.instagram.com" target="_blank">Instagram</a>
-                <a href="https://www.facebook.com" target="_blank">Facebook</a>
-                <a href="https://www.twitter.com" target="_blank">Twitter</a>
-                <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
-                <a href="https://www.youtube.com" target="_blank">YouTube</a>
-                <a href="https://wa.me/1234567890" target="_blank">WhatsApp</a>
-            </div>
+          </div>
+          <div class="text-center d-flex justify-content-between pt-2 align-items-center border-top px-4">
             <div>
-                <p class="text-center">© 2024 Huellitas Felices. Todos los derechos reservados.</p>
+                <p class="text-center">© 2024 Huellitas Felices | By [Tu Nombre].</p>
             </div>
-        </div>
+            <div class="text-center fs-4 d-flex gap-4">
+                <a href="https://www.instagram.com" target="_blank" class="text-muted"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.facebook.com" target="_blank" class="text-muted"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.linkedin.com" target="_blank" class="text-muted"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.twitter.com" target="_blank" class="text-muted"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.youtube.com" target="_blank" class="text-muted"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
     </footer> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
