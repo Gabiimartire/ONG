@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Huellitas Felices</title>
 </head>
 <body>
-    <header class="border-bottom px-5">
+    <header class="border-bottom px-5 position sticky-top bg-body">
   <nav class="navbar navbar-expand-lg bg-body-tertiary ">
     <div class="container-fluid">
       <!-- LOGO -->
@@ -28,13 +29,13 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav gap-2 fw-bold">
           <li class="nav-item">
-            <a class="nav-link" href="#">PONER ALGO</a>
+            <a class="nav-link" href="#">¿QUIENES SOMOS?</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">PONER ALGO</a>
+            <a class="nav-link" href="#">CONTACTO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" target="_blank" href="https://www.paypal.com/donate/?hosted_button_id=6MYXESPRSUAZ8">MP DE EE.UU</a>
+            <a class="nav-link" target="_blank" href="https://www.paypal.com/donate/?hosted_button_id=6MYXESPRSUAZ8">PAYPAL</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" target="_blank" href="https://www.mercadopago.com.ar/subscriptions/checkout/v2?preapproval_plan_id=35474764a5a640e79ea532f2f22eee20">MP</a>
@@ -111,7 +112,7 @@
             <h4 class="border-bottom text-center pb-2 w-100 fs-6 fw-thin text-muted">QUE HACEMOS</h4>
             <div class="d-md-flex text-center align-items-center justify-content-center">
               <img src="./img/logo.png" alt="" id="img-logo" style="width: 300px;" class="py-4">
-              <p class="text-center w-md-75 fw-bold fs-4">En Huellitas Felices, nos dedicamos a rescatar, cuidar y encontrar hogares amorosos para mascotas necesitadas. Nuestra misión es brindar una segunda oportunidad a perros y gatos abandonados, promoviendo la adopción responsable y el bienestar animal.</p>
+              <p class="text-center w-md-75 fw-bold fs-4">Bienvenidos a Huellitas Felices. Creemos que todo animal merece una segunda oportunidad. Somos un puente entre mascotas rescatadas que necesitan ayuda y personas con un gran corazón dispuestas a brindarla. Descubre sus historias y sé parte del cambio.</p>
             </div>
         </div>
         <div class="container d-flex justify-content-around text-center px-5 my-5 gap-2 gap-md-0">
@@ -128,9 +129,99 @@
             <p>Voluntarios</p>
           </div>
         </div>
-        <div>
-            <!-- tarjetas de las mascotas en adopcion -->
+        <section class="container my-5 py-5">
+          
+          <div class="row text-center mb-4">
+            <div class="col">
+              <h2 class="fw-bold">Nuestra Causa</h2>
+              <p class="lead text-muted">Por qué hacemos lo que hacemos.</p>
+            </div>
+          </div>
+
+          <div class="row text-center">
+
+            <div class="col-md-4 px-4" data-aos="fade-up">
+              <i class="bi bi-bullseye fs-1 text-primary"></i>
+              <h5 class="fw-bold my-3">Misión</h5>
+              <p>Rescatar, cuidar y dar en adopción animales en situación de abandono o maltrato.</p>
+            </div>
+
+            <div class="col-md-4 px-4 border-start border-end" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-eye-fill fs-1 text-primary"></i>
+              <h5 class="fw-bold my-3">Visión</h5>
+              <p>Lograr una comunidad donde cada animal tenga un hogar responsable y lleno de amor.</p>
+            </div>
+
+            <div class="col-md-4 px-4" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-heart-fill fs-1 text-primary"></i>
+              <h5 class="fw-bold my-3">Valores</h5>
+              <p>Respeto por la vida, empatía, compromiso y transparencia.</p>
+            </div>
+          </div>
+      </section>
+<div class="container my-5">
+    <div class="row">
+        <div class="col">
+            <h4 class="border-bottom text-center py-2 w-100 fs-3">MASCOTAS EN ADOPCIÓN</h4> 
         </div>
+    </div>
+
+    <div class="row g-4 mt-3" data-aos="fade-up">
+        <div class="col-lg-3 col-md-6">
+            <div class="card h-100 shadow-sm">
+                <img class="card-img-top" src="./img/perro1.jpeg" alt="Card image cap">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Pedrito</h5>
+                    <p class="card-text">Este adorable cachorro es Pedrito. Es juguetón, cariñoso y está ansioso por encontrar un hogar que lo llene de mimos</p>
+                    <a href="#" class="btn btn-outline-info mt-auto">Adoptar</a>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+            <div class="card h-100 shadow-sm">
+                <img class="card-img-top" src="./img/perro2.jpeg" alt="Card image cap">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Pancho</h5>
+                    <p class="card-text">Pancho es un perro adulto con una mirada llena de nobleza. Es tranquilo, leal y el compañero ideal para quien busque un amigo fiel.</p>
+                    <a href="#" class="btn btn-outline-info mt-auto">Adoptar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+            <div class="card h-100 shadow-sm">
+                <img class="card-img-top" src="./img/gato1.jpeg" alt="Card image cap">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Josefina</h5>
+                    <p class="card-text">Josefina es una gata tricolor increíblemente dulce. Es tranquila, cariñosa y le encanta acurrucarse. Está lista para llenar tu hogar de calma y ronroneos.</p>
+                    <a href="#" class="btn btn-outline-info mt-auto">Adoptar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+            <div class="card h-100 shadow-sm">
+                <img class="card-img-top" src="./img/gato2.jpeg" alt="Card image cap">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Simba</h5>
+                    <p class="card-text">Este pequeño explorador es Simba. Es un gatito lleno de curiosidad y travesuras. Busca una familia paciente que juegue con él y lo vea crecer seguro y feliz.</p>
+                    <a href="#" class="btn btn-outline-info mt-auto">Adoptar</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+    <section class="container-fluid p-0">
+      <div class="pre-footer-banner d-flex align-items-center justify-content-center">
+          <div class="text-center">
+              <h2 class="display-4 text-white fw-bold">¡Tu ayuda hace la diferencia!</h2>
+              <a href="#" class="btn btn-primary btn-lg mt-3">Quiero donar ahora</a>
+          </div>
+      </div>
+    </section>
     </main>
     <footer class="bg-light">
         <div class="footer container">
@@ -192,5 +283,9 @@
     <script src="https://cdn.jsdelivr.net/npm/countup.js@2.8.0/dist/countUp.umd.js"></script> <!-- realiza el conteo desde 0 hasta el numero que ponga en el data target -->
     <script src="./main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init(); 
+    </script>
 </body>
 </html>
